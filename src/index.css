@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    overflow: hidden;
+}
+@layer components {
+    .max-container{
+        max-width: 1100px;
+        @apply mx-auto px-5 w-full
+    }
+    body, html{
+        @apply h-full
+    }
+    #root{
+        @apply flex flex-col h-full
+    }
+}
